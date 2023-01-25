@@ -1,4 +1,3 @@
-# Aumentos múltiplos
 salario = float(input('Qual o seu salário? '))
 
 if salario <= 1250:

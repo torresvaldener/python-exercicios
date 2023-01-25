@@ -1,4 +1,3 @@
-# Analisando triângulo v1.0
 r1 = float(input('Digite um comprimento: '))
 r2 = float(input('Digite um comprimento: '))
 r3 = float(input('Digite um comprimento: '))

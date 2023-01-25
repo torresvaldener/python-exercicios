@@ -1,4 +1,3 @@
-# Jogo da Adivinhação v.1.0
 from time import sleep
 from random import choice
 n = int(input('Adivinhe o número de 0 a 5: '))

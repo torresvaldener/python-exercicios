@@ -1,4 +1,3 @@
-# Mostrando número inteiro
 from math import floor
 n = float(input('Digite um número: '))
 int = floor(n)
