@@ -1,14 +1,14 @@
 from datetime import date
-anoNascimento = int(input('Qual o seu ano de nascimento? '))
+anoNascimento = int(input('Ano de nascimento? '))
 idade = date.today().year - anoNascimento
 
 if idade <= 9:
-    print(f'Você tem {idade} anos e sua categoria é MIRIM')
+    print(f'O Atleta tem {idade} anos. \nCategoria: MIRIM')
 elif idade <= 14:
-    print(f'Você tem {idade} anos e sua categoria é INFANTIL')
+    print(f'O Atleta tem {idade} anos. \nCategoria: INFANTIL')
 elif idade <= 19:
-    print(f'Você tem {idade} anos e sua categoria é JUNIOR')
-elif idade <= 20:
-    print(f'Você tem {idade} anos e sua categoria é SENIOR')
+    print(f'O Atleta tem {idade} anos. \nCategoria: JUNIOR')
+elif idade <= 25:
+    print(f'O Atleta tem {idade} anos. \nCategoria: SENIOR')
 else:
-    print(f'Você tem {idade} anos e sua categoria é MASTER')
+    print(f'O Atleta tem {idade} anos. \nCategoria: MASTER')
